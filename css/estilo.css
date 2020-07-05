@@ -1,0 +1,42 @@
+*{
+  font-family: Product Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+.contenedor-primario{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    height: 600px;
+}
+
+.contenedor-secundario{
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+}
+.imagen-google{
+  position: relative;
+  left: 160px;
+  
+ 
+}
+.lupa{
+  height: 30px;
+  position: absolute;
+  right:735px;
+  top: 134px;
+  opacity: 0.8;
+  
+}
+.entrada{
+  width: 500px;
+  position: relative;
+  bottom: 40px;
+  left: 45px;
+  border-radius: 33px;
+  height: 42px;
+  opacity: 0.5;
+}
+
+
